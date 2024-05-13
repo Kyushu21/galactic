@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema Solar Interactivo</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/planeta-page/planetas.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container">
+            <img src="/imgs/logo.png" class="logo">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Cambiar nav -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Start</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="satellites.html">Satellites</a>
+                    </li>
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search Planet" aria-label="Search" id="searchInput">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="button" onclick="mostrarPlanetaBuscado()">Search</button>
+                    </form>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+  <div id="planetInfoContainer" class="card">
+
+        <div id="contenedorPlanetas">
+            
+        </div>
+  </div>
+  <div id="solarSystemContainer">
+    <div class="sun"></div>
+
+    <div class="mercury-outline">
+        <div class="mercury">
+            <p>Mercury</p>
+        </div>
+    </div>
+    <div class="venus-outline-1">
+        <div class="venus">
+            <p>Venus</p>
+        </div>
+    </div>
+    <div class="earth-outline-1">
+        <div class="earth">
+            <div class="earth-circle">
+                    <div class="earth-inner"></div>
+            </div>
+            <p>Earth</p>
+        </div>
+    </div>
+    <div class="mars-outline-1">
+        <div class="mars">
+            <p>Mars</p>
+        </div>
+    </div>
+    <div class="jupiter-outline-1">
+        <div class="jupiter">
+            <p>Jupiter</p>
+        </div>
+    </div>
+    <div class="saturn-outline-1">
+        <div class="saturn">
+            <p>Saturn</p>
+        </div>
+    </div>
+    <div class="uranus-outline-1">
+        <div class="uranus">
+            <p>Uranus</p>
+        </div>
+    </div>
+    <div class="neptune-outline-1">
+        <div class="neptune">
+            <p>Neptune</p>
+        </div>
+    </div>
+  </div>
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="/planeta-page/planeta.js"></script>
+</body>
+</html>

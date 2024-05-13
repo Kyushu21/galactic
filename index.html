@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explora el Espacio con la NASA</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container">
+            <img src="imgs/logo.png" class="logo" />
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Cambiar nav -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="satellites.html">Satellites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="planeta.html">Planet</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Encabezado principal -->
+    <header class="jumbotron text-center text-white header-custom">
+        <div class="container">
+            <h1 class="display-4">Explore Space with NASA</h1>
+            <p class="lead">
+                Discover the astronomical image of the day and learn about the cosmos.
+            </p>
+            <img src="https://science.nasa.gov/wp-content/uploads/2023/07/goes-r-padded-withearthreflectioninsolarpanel-.webp?w=1536"
+                class="card-img" />
+        </div>
+    </header>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Contenedor para el carrusel de imágenes astronómicas -->
+        <div id="imageCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner"></div>
+            <a class="carousel-control-prev" href="#imageCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#imageCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+    <!-- Sección de Noticias -->
+    <section class="mt-5">
+        <div class="container">
+            <h1 class="mt-4 mb-4">NASA News</h1>
+            <div id="newsContainer" class="row">
+            </div>
+    </section>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <img src="https://spaceplace.nasa.gov/satellite/en/TEMPO.en.jpg" class="card-img-top"
+                        alt="Satellite" />
+                    <div class="card-body">
+                        <h5 class="card-title">Explore Satellites</h5>
+                        <p class="card-text">
+                            Discover fascinating information about satellites in orbit.
+                        </p>
+                        <a href="satellites.html" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <img src="https://spaceplace.nasa.gov/review/all-about-earth/earth3.sp.png" class="card-img-top"
+                        alt="Planet" />
+                    <div class="card-body">
+                        <h5 class="card-title">Explore Planets</h5>
+                        <p class="card-text">
+                            Dive into exploration of the planets in our solar system.
+                        </p>
+                        <a href="planeta.html" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer mt-5 py-3 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="mb-4">API Information</h5>
+                    <p>
+                        Discover more about NASA's API and how to access astronomical
+                        data.
+                    </p>
+                    <p>
+                        <a href="https://api.nasa.gov/" class="text-muted">NASA API</a>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="mb-4">Useful Links</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.nasa.gov/" class="text-muted">NASA Website</a>
+                        </li>
+                        <li>
+                            <a href="https://api.nasa.gov/" class="text-muted">NASA API</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/NASA" class="text-muted">NASA GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4" />
+            <div class="row">
+                <div class="col text-center">
+                    <span class="text-muted">© 2024 Explore Space with NASA</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="api/api.js"></script>
+</body>
+
+</html>
