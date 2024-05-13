@@ -108,7 +108,7 @@ function mostrarPlanetaBuscado() {
         contenedorPlanetas.appendChild(card);
     } else {
         // Si no se encontró ningún planeta coincidente, mostramos un mensaje de error
-        var mensajeError = document.createElement("p");
+        const mensajeError = document.createElement("p");
         mensajeError.textContent = "No se encontró ningún planeta con ese nombre.";
         contenedorPlanetas.appendChild(mensajeError);
     }
