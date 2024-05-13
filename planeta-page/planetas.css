@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(/planeta-page/planetas/stars.jpg);
+    background-image: url(planetas/stars.jpg);
     background-size: cover;
 
 }
@@ -15,7 +15,7 @@ body{
 .sun{
     height: 120px;
     width: 120px;
-    background-image: url(/planeta-page/planetas/sol.jpeg);
+    background-image: url(planetas/sol.jpeg);
     border-radius: 50%;
     background-size: cover;
     box-shadow: -4px 2px 50px #f9c05f;
@@ -65,7 +65,7 @@ p{
 .venus{
     height: 40px;
     width: 40px;
-    background-image: url(/planeta-page/planetas/venus.webp);
+    background-image: url(planetas/venus.webp);
     background-size: 100%;
     border-radius: 50%;
     position: absolute;
@@ -86,7 +86,7 @@ p{
 .earth{
     height: 50px;
     width: 50px;
-    background-image: url(/planeta-page/planetas/tierra.png);
+    background-image: url(planetas/tierra.png);
     background-size: 100%;
     border-radius: 50%;
     position: absolute;
@@ -131,7 +131,7 @@ p{
 .mars{
     height: 30px;
     width: 30px;
-    background-image: url(/planeta-page/planetas/marte.png);
+    background-image: url(planetas/marte.png);
     background-size: 100%;
     border-radius: 50%;
     position: absolute;
@@ -153,7 +153,7 @@ p{
 .jupiter{
     height: 40px;
     width: 40px;
-    background-image: url(/planeta-page/planetas/jupiter.png);
+    background-image: url(planetas/jupiter.png);
     background-size: 100%;
     border-radius: 50%;
     position: absolute;
@@ -175,7 +175,7 @@ p{
 .saturn{
     height: 50px;
     width: 50px;
-    background-image: url(/planeta-page/planetas/saturno.png);
+    background-image: url(planetas/saturno.png);
     box-shadow: -4px 2px 50px #cac2b9;
     background-size: 100%;
     border-radius: 50%;
@@ -197,7 +197,7 @@ p{
 .uranus{
     height: 30px;
     width: 30px;
-    background-image: url(/planeta-page/planetas/urano.webp);
+    background-image: url(planetas/urano.webp);
     background-size: 100%;
     border-radius: 50%;
     box-shadow: -4px 2px 56px #cac2b9;
@@ -219,7 +219,7 @@ p{
 .neptune{
     height: 30px;
     width: 30px;
-    background-image: url(/planeta-page/planetas/neptuno.webp);
+    background-image: url(planetas/neptuno.webp);
     background-size: 100%;
     border-radius: 50%;
     box-shadow: -4px 2px 56px #cac2b9;
