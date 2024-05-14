@@ -18,9 +18,9 @@ $(document).ready(function () {
                   <div class="carousel-item ${activeClass}">
                       <img src="${image.hdurl}" class="d-block w-100" alt="Imagen astronómica">
                       <div class="carousel-caption d-none d-md-block">
-                          <h5>${image.title}</h5>
-                          <p>${image.date}</p>
-                          <p>${image.explanation}</p>
+                        <h5 class="information-p">${image.title}</h5>
+                        <p class="information-p">${image.date}</p>
+                        <p class="information-p">${image.explanation}</p>
                       </div>
                   </div>
               `;

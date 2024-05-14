@@ -115,5 +115,20 @@ function mostrarPlanetaBuscado() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("searchButton").addEventListener("click", mostrarPlanetaBuscado);
+    const searchInput = document.getElementById("searchInput");
+    const searchButton = document.getElementById("searchButton");
+
+    // Agregar un evento al campo de búsqueda para manejar la pulsación de tecla "Enter"
+    searchInput.addEventListener("keypress", function(event) {
+        // Verificar si la tecla presionada es "Enter"
+        if (event.key === "Enter") {
+            // Evitar el envío del formulario
+            event.preventDefault();
+            // Llamar a la función mostrarPlanetaBuscado
+            mostrarPlanetaBuscado();
+        }
+    });
+    // Agregar un evento al botón de búsqueda para llamar a la función mostrarPlanetaBuscado
+    searchButton.addEventListener("click", mostrarPlanetaBuscado);
 });
+
