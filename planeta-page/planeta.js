@@ -76,7 +76,7 @@ function mostrarPlanetaBuscado() {
         name.textContent = planetaBuscado.name;
 
         let imagen = document.createElement("img");
-        imagen.src = "planeta-page/planetasgif/" + planetaBuscado.name.toLowerCase() + ".gif";
+        imagen.src = "planeta-page/planetasgiff/" + planetaBuscado.name.toLowerCase() + ".gif";
         imagen.alt = planetaBuscado.name;
         imagen.classList.add("img-fluid", "rounded");
 
